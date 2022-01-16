@@ -50,12 +50,71 @@ body {
     height: 1000px;
 }
 
+.contacts {
+    margin-top: 55px;
+}
+
+.tech-skills,
+.soft-skills {
+    margin-top: 45px;
+}
+
+.contacts,
+.tech-skills,
+.soft-skills {
+    margin-left: 40px;
+}
+
+.ul-margin {
+    margin-left: 18px;
+}
+
 .photo-candidate {
     width: 100%;
     margin-top: 40px;
 }
 
+.left-h2 {
+    font-size: 1.375rem;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.ul-markers {
+    color: #FB6D3A;
+}
+
+.ul-elements-and-contacts-info {
+    color: #ffffff;
+    font-size: 0.875rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+}
+
 .right-column {
-    background-color: orange;
-    width: calc(100% - 370px);
+    background-color: #ffffff;
+    width: 830px;
+}
+
+.name-and-first-information,
+.projects,
+.work-experience,
+.education {
+    margin-left: 90px;
+}
+
+.name-candidate{
+    font-size: 2.8125rem;
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
 }
