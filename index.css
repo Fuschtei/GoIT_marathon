@@ -26,7 +26,7 @@ body {
     overflow-x: hidden;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
@@ -107,6 +107,10 @@ a{
     box-sizing: border-box;
 }
 
+.right-h2{
+    margin-bottom: 10px;
+}
+
 .name-and-first-information {
     margin-top: 100px;
 }
@@ -122,12 +126,24 @@ a{
     font-size: 2.8125rem;
     color: #000000;
     font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 25px;
 }
+
+.projects,
+.work-experience,
+.education {
+    margin-top: 45px;
+    margin-bottom: 15px;
+}
+
+
 
 .date-and-place {
     display: flex;
     color: #A8A8A8;
     font-size: 0, 875rem;
+    margin-bottom: 10px;
 }
 
 .line {
@@ -143,12 +159,14 @@ a{
     font-size: 0.875rem;
     color: #000000;
     font-weight: bold;
+    margin-bottom: 10px;
 }
 
 .university {
     color: #FB6D3A;
     font-size: 1rem;
     font-weight: bold;
+    margin-bottom: 10px;
 }
 
 .duties>li,
@@ -161,6 +179,10 @@ a{
     font-weight: bold;
 }
 
+.technology {
+    margin: 0 5px;
+}
+
 .link-project,
 .technology {
     color: #A8A8A8;
@@ -168,14 +190,16 @@ a{
     font-size: 0.875rem;
 }
 
-.underscore{
+.underscore {
     color: #A8A8A8;
+    margin: 0 3px;
 }
 
 
 .speciality-work {
     display: flex;
     justify-content: start;
+    margin-bottom: 10px;
 }
 
 .specialiy-work-name {
